@@ -1,0 +1,103 @@
+/* HOLIDAY SALE SECTION START */
+#topbar{
+    display: flex;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#topbar-middle{
+    margin: auto;
+    font-size: 12px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#topbar-button{
+    color: white;
+    border: 1px solid white;
+    margin-right: 20px;
+    border-radius: 50%;
+    background-color: inherit;
+}
+
+#topbar-button:hover{
+    border: none;
+    background-color: red;
+}
+
+#topbar-middle a{
+    color: red;
+}
+
+/* HOLIDAY SALE SECTION END */
+/* NAVBAR START */
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    align-items: center;
+    height: 70px;
+}
+
+.nav-links{
+    margin-left: 5%;
+    display: flex;
+    width: 100%;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-link-whoop{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links button, .sale-section button{
+    background-color: red;
+    color: white;
+    border-radius: 2em;
+    height: 50px;
+    width: 120px;
+    padding: 10px;
+}
+/* NAVBAR END */
+/* MAIN SECTION START */
+.main-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-body img{
+    width: 75%;
+}
+
+.sale-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.767), rgba(16, 14, 14, 0.539), rgba(0, 0, 0, 0.781), rgba(0, 100, 0, 0.594) );
+}
+
+.sale-section button{
+ border: none;
+}
+
+#chat-image{
+    width: 3%;
+    position: absolute;
+    z-index: 1;
+    top: 98%;
+    left: 90%;
+}
+
+/* MAIN SECTION END */
